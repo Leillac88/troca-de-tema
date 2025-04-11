@@ -1,5 +1,5 @@
 /* Switch container no canto superior direito */
-.theme-switch-wrapper {
+.theme-toggle {
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -11,7 +11,7 @@
   }
 
   /* Estilo do switch */
-  .theme-switch {
+  .theme-toggle-container {
     display: inline-block;
     width: 50px;
     height: 26px;
@@ -23,7 +23,7 @@
   }
 
   /* Botão dentro do switch */
-  .theme-switch::after {
+  .theme-toggle-container::after {
     content: '';
     position: absolute;
     width: 20px;
@@ -36,10 +36,10 @@
   }
 
   /* Quando ativado, move o botão e muda a cor */
-  #theme-toggle:checked + .theme-switch {
+  #theme-toggle:checked + .theme-toggle-container {
     background-color: var(--accent-color);
   }
 
-  #theme-toggle:checked + .theme-switch::after {
+  #theme-toggle:checked + .theme-toggle-container::after {
     left: 27px;
   }
