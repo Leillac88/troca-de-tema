@@ -35,3 +35,14 @@ h1 {
     margin-top: 20px;
     font-size: 2rem;
 }
+
+.info-text {
+    line-height: 1.7;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    transition: opacity var(--transition-time) ease;
+}
+
+.info-text:hover {
+    opacity: 1;
+}
