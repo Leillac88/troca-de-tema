@@ -10,3 +10,8 @@ input[type="checkbox"] {
     transition: var(--transition-time);
     position: relative;
 }
+
+input:checked[type='checkbox'] {
+    background-color: var(--toggle-active);
+}
+
