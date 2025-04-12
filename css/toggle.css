@@ -28,3 +28,9 @@ input[type="checkbox"]:before {
     left: 0;
     transition: var(--transition-time);
 }
+
+input:checked[type="checkbox"]:before {
+    left: 25px;
+    background-color: var(--toggle-bg);
+    border-color: var(--toggle-border);
+}
