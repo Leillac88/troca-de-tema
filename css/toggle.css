@@ -9,8 +9,6 @@ input[type="checkbox"] {
     cursor: pointer;
     transition: var(--transition-time) ease;
     position: relative;
-    margin-top: 0.2rem;
-    margin-left: 0.4rem;
 }
 
 input:checked[type='checkbox'] {
@@ -35,4 +33,11 @@ input:checked[type="checkbox"]:before {
     left: 25px;
     background-color: var(--toggle-bg);
     border-color: var(--toggle-border);
+}
+
+#theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
 }
